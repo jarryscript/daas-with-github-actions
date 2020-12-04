@@ -10,6 +10,6 @@
     <brand name="Candys|Sees"  platform="platform()"/>
     <product name="popcorn|chocklate" image="snack.jpg" brand="brand()"  platform="platform()"/>
     <sku name="sku" product="product()" brand="brand()" platform="platform()" create_time="createTime()"/>
-    <category name="category1|[1,10]" platform="$(platform)"/>    
+    <category name="category1|category2|[1,10]" platform="$(platform)"/>    
 </root>
  
