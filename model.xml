@@ -7,9 +7,25 @@
         founded="now()"
         contact_number="992887654321"
     />
-    <brand name="Candys|Sees"  platform="platform()"/>
-    <product name="popcorn|chocklate" image="snack.jpg" brand="brand()"  platform="platform()"/>
-    <sku name="sku" product="product()" brand="brand()" platform="platform()" create_time="createTime()"/>
-    <category name="category1|category2|[1,10]" platform="$(platform)"/>    
+    
+    
+    <animal
+            name="鸟类|昆虫"
+            />
+    
+    <dog 
+         name="狗1|狗2"
+         
+         />
+    
+    
+    <small_dog
+               name="小狗1"
+               dog="${dog}"
+               />
+            
+            
+    
+ 
 </root>
  
